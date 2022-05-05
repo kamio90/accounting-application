@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Automatic Accounting System
 
-## Getting Started
+## Description
 
-First, run the development server:
+There is a very big problem in Poland with taxes. I would like to use this application to automate all activities related to issuing invoices, pits and other things related to basic accounting matters.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Technologies
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Technologies used in this application will be constantly updated
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+* Front-End side of application
+  * [Next.js](https://nextjs.org/)
+  * [React.js](https://reactjs.org/)
+  * [Node.js](https://nodejs.org/)
+  * [TypeScript](https://www.typescriptlang.org/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Money
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Unfortunately, every project is about money, at the moment I'm working and I'm doing this project as my side project, so I will try to keep the project open source and totally free to use. Unfortunately, tests and servers cost money, so I am thinking about some sponsorship packages, but we will think about it later, at this point, the finished product will be 100% non-profit
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+At the moment, I am creating a plan for how I want to run this application, so probably during the development, a beautiful table, a drawing or a dancing unicorn will appear here, which will say what is cool about this project. At the moment, unfortunately, this is a blank [Next.js](https://nextjs.org/) application
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future plans
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Unfortunately, in Poland, the tax law, methods of tax settlement and forms of taxation are very complicated, but we'll be fine in the first alpha version of the application, I assume
 
-## Deploy on Vercel
+* automatic issuing of invoices,
+* lump sum service,
+* automatic analysis of scanned documents
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+it seems to me that this is a lot for the size and complexity of Polish tax law
